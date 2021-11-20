@@ -1,23 +1,26 @@
-import logo from "./logo.svg";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
+import "./App.css";
+import hero from "./images/hero.png";
+
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
+		<div>
+			<header
+				className="vh-100 bg-dark"
+				style={{
+					background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url(${hero})`,
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat",
+				}}
+			>
+				<Navbar />
+				<div className="container">
+					<HeroSection />
+				</div>
 			</header>
 		</div>
 	);
