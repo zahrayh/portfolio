@@ -5,6 +5,7 @@ import hero from "./images/hero.png";
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<HeroSection />
 				</div>
 			</header>
+			<AboutSection />
 		</div>
 	);
 }

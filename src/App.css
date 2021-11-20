@@ -31,3 +31,10 @@
 	background-color: #c51162;
 	border-color: #c51162;
 }
+
+.about_section p {
+	text-align: justify;
+}
+.about_section .progress-bar {
+	background-color: #d14181;
+}
