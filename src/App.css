@@ -32,9 +32,20 @@
 	border-color: #c51162;
 }
 
+.section {
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.section h1 {
+	margin-bottom: 1rem;
+}
 .about_section p {
 	text-align: justify;
 }
 .about_section .progress-bar {
 	background-color: #d14181;
+}
+
+#projects_section {
+	background-color: #f2f2f5;
 }
