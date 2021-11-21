@@ -36,7 +36,7 @@ function Navbar() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<a className="nav-link" href="/#experience_section">
 								Experience
 							</a>
 						</li>
