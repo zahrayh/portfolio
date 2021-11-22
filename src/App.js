@@ -8,7 +8,6 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ExperienceSection from "./components/ExperienceSection";
-import { Helmet } from "react-helmet";
 
 function App() {
 	return (
@@ -21,9 +20,6 @@ function App() {
 					backgroundRepeat: "no-repeat",
 				}}
 			>
-				<Helmet>
-					<title>Zahraa YH</title>
-				</Helmet>
 				<Navbar />
 				<div className="container">
 					<HeroSection />
