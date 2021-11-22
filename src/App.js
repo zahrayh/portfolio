@@ -8,6 +8,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ExperienceSection from "./components/ExperienceSection";
+import { Helmet } from "react-helmet";
 
 function App() {
 	return (
@@ -20,6 +21,18 @@ function App() {
 					backgroundRepeat: "no-repeat",
 				}}
 			>
+				<Helmet>
+					<title>Zahraa YH</title>
+					<meta name="description" content="PHP Laravel Full Stack Developer" />
+
+					<meta property="og:title" content="Zahraa YH." />
+					<meta property="og:image" content={hero} />
+					<meta
+						property="og:description"
+						content="PHP Laravel Full Stack Developer"
+					/>
+					{/* <meta property="og:url" content="https://example.com/page.html" /> */}
+				</Helmet>
 				<Navbar />
 				<div className="container">
 					<HeroSection />
