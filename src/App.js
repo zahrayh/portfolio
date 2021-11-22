@@ -23,18 +23,6 @@ function App() {
 			>
 				<Helmet>
 					<title>Zahraa YH</title>
-					<meta name="description" content="PHP Laravel Full Stack Developer" />
-					<meta property="og:title" content="Zahraa YH." data-rh="true" />
-					<meta
-						property="og:description"
-						content="PHP Laravel Full Stack Developer"
-						data-rh="true"
-					/>
-					<meta
-						property="og:image"
-						content="https://porfolio-zahraa-yh.netlify.app/static/media/hero.06884ff4.png"
-						data-rh="true"
-					/>
 				</Helmet>
 				<Navbar />
 				<div className="container">
