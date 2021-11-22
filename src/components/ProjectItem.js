@@ -1,19 +1,43 @@
 import React from "react";
-import img from "../images/hero.png";
+import { FaGithub } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 
-function ProjectItem() {
+function ProjectItem({ item }) {
+	console.log(item);
 	return (
 		<div className="card">
-			<img src={img} className="card-img-top" alt="..." />
-			<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make up the
-					bulk of the card's content.
-				</p>
-				<a href="#" className="btn btn-primary">
-					Go somewhere
-				</a>
+			<img src={item.img} className="card-img-top" alt={item.title} />
+			<div className="card-body d-flex flex-column">
+				<h5 className="card-title">{item.title}</h5>
+				<div className="skills">
+					{item.technologies.map((tech) => {
+						return <span className="badge bg_custom_accent me-1">{tech}</span>;
+					})}
+				</div>
+
+				<p className="card-text mt-3 mb-3">{item.details}</p>
+
+				<div className="mt-auto d-flex">
+					<a
+						href={item.preview_link}
+						className="btn btn-sm btn_custom_dark me-2"
+						target="_blank"
+						rel="noopener noreferrer"
+						ssss
+					>
+						<FaEye className="me-1 pb-1" size={17} />
+						Preview
+					</a>
+					<a
+						href={item.git_link}
+						className="btn btn-sm btn_custom_dark"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<FaGithub className="me-1 pb-1" size={19} />
+						GitHub
+					</a>
+				</div>
 			</div>
 		</div>
 	);

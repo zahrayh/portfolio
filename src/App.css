@@ -49,3 +49,15 @@
 #projects_section {
 	background-color: #f2f2f5;
 }
+
+.bg_custom_accent {
+	background-color: #d14181;
+}
+.btn_custom_dark {
+	background-color: #5c5bbd;
+	color: whitesmoke;
+}
+.btn_custom_dark:hover {
+	background-color: #404084;
+	color: whitesmoke;
+}
