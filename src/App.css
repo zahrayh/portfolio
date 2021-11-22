@@ -83,3 +83,14 @@
 	font-size: 1.35rem;
 	margin: 0;
 }
+
+footer {
+	padding-top: 28px;
+	padding-bottom: 28px;
+	text-align: center;
+	background-color: #33315d;
+	color: whitesmoke;
+}
+footer p {
+	margin: 0;
+}
