@@ -3,8 +3,8 @@ import img from "../images/about.svg";
 
 function AboutSection() {
 	return (
-		<div className="container about_section" id="about_section">
-			<div className="row py-5 align-items-center">
+		<div className="container about_section section" id="about_section">
+			<div className="row align-items-center">
 				<div className="col">
 					<img
 						src={img}
@@ -14,7 +14,7 @@ function AboutSection() {
 					/>
 				</div>
 				<div className="col">
-					<h1 className="mb-3">About Me</h1>
+					<h1>About Me</h1>
 					<p>
 						I've found my passion for web development during my computer science
 						studies. During my work experience, I've managed multiple websites
