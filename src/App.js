@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
+import ExperienceSection from "./components/ExperienceSection";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 			</header>
 			<AboutSection />
 			<ProjectsSection />
+			<ExperienceSection />
 		</div>
 	);
 }
