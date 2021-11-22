@@ -46,7 +46,8 @@
 	background-color: #d14181;
 }
 
-#projects_section {
+#projects_section,
+#contact_section {
 	background-color: #f2f2f5;
 }
 
@@ -71,4 +72,14 @@
 }
 .experience_item .details {
 	text-align: justify;
+}
+
+.contact_icon {
+	background-color: #c8d3f8;
+	padding: 11px;
+	color: #33315d;
+}
+.contact_icon_title {
+	font-size: 1.35rem;
+	margin: 0;
 }
